@@ -10,4 +10,4 @@ SHEET_NAME = 'master'
 url = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}'
 gSheetDF = pd.read_csv(url)
 
-gSheetDF.to_json(r'data/data2.json',orient='records')
+gSheetDF.to_json(r'data/freshyjobsData.json',orient='records')
