@@ -1,0 +1,4 @@
+# ignore ALL .log files
+main.py
+# ignore ALL files in ANY directory named temp
+venv/
